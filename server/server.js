@@ -18,7 +18,6 @@ app.post('/todos', (req, res) => {
 
     todo.save().then((doc) => {
         res.send(doc);
-        // console.log("document created", doc);
     }, (error) => {
         res.status(400).send(error);
     });
