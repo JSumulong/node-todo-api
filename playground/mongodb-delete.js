@@ -31,6 +31,11 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
         console.log(result);
     });
 
+    // drop a collection
+    // db.collection('todos').drop(function(err) {
+    //     console.log('dropped');
+    // });
+
     // db.close();
 
 });
