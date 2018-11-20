@@ -1,4 +1,3 @@
-const {SHA256} = require('crypto-js');
 const jwt = require('jsonwebtoken');
 
 var data = {
@@ -16,6 +15,7 @@ console.log('Decoded: ', decoded);
 
 
 
+// const {SHA256} = require('crypto-js');
 // var message = "I am user number 3";
 // var hash = SHA256(message).toString();
 
